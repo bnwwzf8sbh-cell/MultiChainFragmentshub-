@@ -75,6 +75,7 @@ sshproxy = "ipyparallel.cluster.launcher:SSHProxyEngineSetLauncher"
 winhpc = "ipyparallel.cluster.launcher:WindowsHPCEngineSetLauncher"
 
 [project.optional-dependencies]
+offchain = []
 nbext = ["notebook", "jupyter_server"]
 serverextension = ["jupyter_server"]
 labextension = ["jupyter_server", "jupyterlab>=3"]

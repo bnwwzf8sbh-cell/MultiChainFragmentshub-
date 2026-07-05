@@ -28,9 +28,12 @@ Quick example::
 from .connector import HubConnector
 from .fragment_processor import FragmentProcessor
 from .message_router import MessageRouter
+from .security import HashSuite, Secp256k1Suite
 
 __all__ = [
     "HubConnector",
     "FragmentProcessor",
     "MessageRouter",
+    "HashSuite",
+    "Secp256k1Suite",
 ]
